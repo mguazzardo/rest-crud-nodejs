@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({
 
 // connection configurations
 const mc = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
+    host: 'mysql',
+    user: 'user1',
+    password: 'master',
     database: 'node'
 });
 
